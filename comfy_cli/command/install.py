@@ -175,7 +175,7 @@ def execute(
     commit: Optional[str] = None,
     manager_commit: Optional[str] = None,
     gpu: constants.GPU_OPTION = None,
-    cuda_version: constants.CUDAVersion = constants.CUDAVersion.v12_6,
+    cuda_version: constants.CUDAVersion = constants.CUDAVersion.v12_8,
     plat: constants.OS = None,
     skip_torch_or_directml: bool = False,
     skip_requirement: bool = False,
